@@ -1,0 +1,50 @@
+/* 优化后的default.css */
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;  /* 添加行高 */
+}
+
+h1 {
+    font-family: STKaiti, "华文楷体", KaiTi, "楷体", serif;  /* 添加字体回退 */
+    font-size: 25px;
+    color: #CB80AB;
+    text-align: left;
+    margin: 20px 0;  /* 添加上下间距 */
+    padding-bottom: 10px;  /* 添加底部内边距 */
+    border-bottom: 1px solid #666;  /* 添加底部分隔线 */
+}
+
+p {
+    display: block;
+    font-family: STKaiti, "华文楷体", KaiTi, "楷体", serif;  /* 添加字体回退 */
+    font-size: 25px;
+    color: #3C3D37;
+    text-align: left;
+    margin: 15px 0;  /* 添加段落间距 */
+    line-height: 1.5;  /* 增加行间距 */
+}
+
+/* 添加图片样式 */
+img {
+    max-width: 90%;  /* 图片最大宽度 */
+    height: auto;  /* 保持图片比例 */
+    margin: 20px auto;  /* 上下间距和居中 */
+    display: block;  /* 块级显示 */
+    border-radius: 4px;  /* 圆角 */
+}
+
+/* 添加创建时间样式 */
+p:nth-child(2) {  /* 针对创建时间的段落 */
+    font-size: 16px;  /* 较小的字号 */
+    color: #666;  /* 浅色 */
+    margin: 10px 0;  /* 减小间距 */
+}
+
+/* 添加答案样式 */
+p:last-child {  /* 针对答案的段落 */
+    margin-top: 20px;  /* 增加与问题的间距 */
+    padding-top: 20px;  /* 增加内部间距 */
+    border-top: 1px dashed #eee;  /* 添加上部虚线分隔 */
+}
