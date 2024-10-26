@@ -1,5 +1,5 @@
 # Knowladge Planet Scraper
-A tool for scraping subscribed content from Knowledge Planet (知识星球) and converting it into a PDF e-book.  
+A tool for scraping subscribed content from Knowledge Planet and converting it into a PDF e-book.  
 I would like to express my sincere gratitude to the previous authors [Weber Snake](https://github.com/wbsabc/zsxq-spider) and [雪山凌狐](https://gitee.com/xueshanlinghu/zsxq_to_pdf)  
 Building upon their foundation, I have made several enhancements including:
 - Optimized PDF layout 
