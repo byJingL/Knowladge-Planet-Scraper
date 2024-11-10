@@ -46,7 +46,7 @@ This project is intended for educational and learning purposes only. Commercial 
   ```
 
 - Run `python crawl.py`
-- 
+
 ## Disclaimer
 While the original framework was developed by others, the modifications and improvements have been added to make the tool more user-friendly. All credit for the original concept and base implementation goes to the initial creators.  
 This tool is for personal use only. The user bears all responsibility for any consequences of using this tool. Please respect copyright and terms of service of Knowledge Planet.
